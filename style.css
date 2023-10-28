@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #1d1d1d;
+}
+
+h6 {
+  color: #d8d8d8;
+}
+
+hr {
+  width: 30px;
+  height: 2px;
+  background-color: #fb774b;
+}
+
+.navbar{
+    font-size: 16px;
+}
+.navbar-light .navbar-nav .nav-link{
+    padding: 0 20px;
+    color:black;
+    transition: 0.3s ease;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active{
+    color:#1d1d1d;
+}
+/*.navbar i{
+    font-size: 1.2rem;
+    padding: 0 7px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease;
+}*/
+
+#new .one img{
+    width: 100%;
+    height: 500px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#new .one .details{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 25%;
+    left: 0%;
+    padding: 20px;
+    transition: 0.3s ease;
+}
+#new .one .details h2{
+    font-size: 26px;
+    font-weight: bold;
+    padding-left: 80px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    padding-top: 200px;
+   color: white;
+}
+#new .one .details h4{
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 200px;
+    padding-left: 680px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+   color: white;
+}
+#new .one .details h3{
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 700px;
+    padding-left: 80px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    color: white;
+}
+
+
+#new .one .details button{
+   display: inline-block;
+   font-size: 14px;
+   font-weight: 500;
+   color:black;
+   background: none;
+   text-transform: uppercase;
+   border-bottom: 1px solid #2a2a2a;
+  
+   transform: translateY(70px);
+   transition: 0.3s ease;
+}
+
+#new .one .details button:hover{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+/*
+#new .one:nth-child(1) .details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+}
+#new .one:nth-child(2) .details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+}
+#new .one:nth-child(3) .details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+}
+*/
+/*.text-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}*/
+.img-box{
+    max-width: 320px;
+    float: left;
+    height: 250px;
+    width: 50%;
+    margin-right: 15px;
+}
+.note{
+    text-align: center;
+    margin-bottom: 45px;
+}
+.test{
+    margin : 150px auto;
+    width: 70% ;
+}
+.text-box{
+    color:#1d1d1d;
+}
+.text-box h2{
+    font-size: 42px;
+}
+.text-box p{
+    font-size: 16px;
+}
+.img-one{
+   height: 100px;
+   width: 50%;
+   padding: 20px 20px 20px 20px;
+   border-radius: 35px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: auto;
+    padding-top: 40px;
+}
+.footer-content{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+}
+.footer-content h1{
+    font-size: 3rem;
+    font-weight: 400;
+
+}
+.footer-content p{
+    font-size: 1.5rem;
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.social li{
+    margin: 0 10px;
+}
+.social a{
+    text-decoration: none;
+    color: #fff;
+}
+.social a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.img-two{
+    
+    height: 40px;
+   width: 50%;
+   padding: 20px 20px 20px 20px;
+   margin-top: 100px;
+   border-radius: 55px;
+   
+ }
+ .img-two p{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start; 
+}
+
+
+
+
